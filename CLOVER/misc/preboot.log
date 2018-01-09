@@ -1,0 +1,525 @@
+0:100  0:100  MemLog inited, TSC freq: 2494330644
+0:100  0:000  
+0:100  0:000  Now is 19.12.2017,  18:15:54 (GMT)
+0:100  0:000  Starting Clover revision: 4359 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t XCODE8 | -D NO_GRUB_DRIVERS_EMBEDDED -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 5 | OS: 10.12.6 | XCODE: 9.2]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,37BD1366-8820-4B68-B86B-E2F1B01C1E7E,0xAF800,0x64000) @C4375A18
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 2048MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = Kingston
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 91131432
+0:100  0:000  SmbiosTable.Type17->PartNumber = 99U5428-011.A02LF 
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:100  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:100  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = 0000
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:100  0:000  SmbiosTable.Type17->PartNumber = MAGNUMTECH
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:100  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:100  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'N56VB' with board 'N56VB'
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=306A9
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i3-3120M CPU @ 2.50GHz
+0:100  0:000   The CPU not supported turbo
+0:100  0:000  MSR 0x35               20004
+0:100  0:000  MSR 0xE2 before patch 1E008404
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xCE              00080C10_E0011900
+0:100  0:000  corrected FLEX_RATIO = 100000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 25.0/12
+0:100  0:000  Turbo: 25/25/25/25
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 2
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2500 MHz
+0:100  0:000  TSC: 2500 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  PCI (00|00:00.00) : 8086 0154 class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 0151 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 0FDF class=030200
+0:100  0:000  PCI (00|01:00.01) : 10DE 0E1B class=040300
+0:100  0:000  PCI (00|00:02.00) : 8086 0166 class=030000
+0:100  0:000   - GFX: Model=Intel HD Graphics 4000 (Intel)
+0:100  0:000  PCI (00|00:14.00) : 8086 1E31 class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 1E3A class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1A.00) : 8086 1E2D class=0C0320
+0:100  0:000  PCI (00|00:1B.00) : 8086 1E20 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 1E10 class=060400
+0:100  0:000  PCI (00|00:1C.01) : 8086 1E12 class=060400
+0:100  0:000  PCI (00|03:00.00) : 168C 0032 class=028000
+0:100  0:000   - WIFI: Vendor=Atheros
+0:100  0:000  PCI (00|00:1C.03) : 8086 1E16 class=060400
+0:100  0:000  PCI (00|04:00.00) : 1969 1091 class=020000
+0:100  0:000   - LAN: 0 Vendor=Atheros
+0:100  0:000  PCI (00|00:1D.00) : 8086 1E26 class=0C0320
+0:100  0:000  PCI (00|00:1F.00) : 8086 1E59 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 1E03 class=010601
+0:100  0:000  PCI (00|00:1F.03) : 8086 1E22 class=0C0500
+0:100  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 70 bytes
+0:100  0:000  Clover started with option to boot boot.efi from Hackintosh Sierra Zone
+0:125  0:024  EFI\CLOVER\config.plist loaded: Success
+0:125  0:000  === [ GetListOfThemes ] ===================================
+0:140  0:015  - [00]: christmas
+0:150  0:009  - [01]: EMBEDDED
+0:151  0:001  - [01]: NEWYEAR
+0:163  0:012  - [02]: RANDOM
+0:164  0:001  === [ Found config plists ] ===============================
+0:164  0:000  - config-clone.plist
+0:164  0:000  - config.plist
+0:164  0:000  === [ GetEarlyUserSettings ] ==============================
+0:164  0:000  timeout set to 5
+0:164  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:164  0:000  KextsToPatch: 4 requested
+0:164  0:000   - [00]: AppleGraphicsDevicePolicy ((c)Pike R. Alpha) :: BinPatch :: data len: 8
+0:164  0:000   - [01]: AppleGraphicsDevicePolicy ((c)Pike R. Alpha GP) :: BinPatch :: data len: 8
+0:164  0:000   - [02]: AppleTyMCEDriver (No Panic on MacPro4,1 - 5,1) :: BinPatch :: data len: 24
+0:164  0:000   - [03]: AppleUSBXHCIPCI (Increase 15 port limit to 26 in AppleUSBXHCIPCI) :: BinPatch :: data len: 7
+0:164  0:000  Default theme: embedded
+0:164  0:000  === [ LoadDrivers ] =======================================
+0:177  0:013  Loading OsxAptioFixDrv-64.efi  status=Success
+0:186  0:008  Loading AppleKeyAggregator-64.efi  status=Success
+0:192  0:005  Loading AppleUITheme-64.efi  status=Success
+0:193  0:001  Loading DataHubDxe-64.efi  status=Success
+0:218  0:024  Loading FirmwareVolume-64.efi  status=Success
+0:219  0:001  Loading FSInject-64.efi  status=Success
+0:220  0:001  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:222  0:001  Loading SMCHelper-64.efi  status=Success
+0:223  0:001  Loading VBoxHfs-64.efi  status=Success
+0:224  0:001   - driver needs connecting
+0:224  0:000  1 drivers needs connecting ...
+0:224  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:224  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:442  0:218  === [ InitScreen ] ========================================
+0:442  0:000  SetMaxResolution: found best mode 0: 1366x768
+0:442  0:000   - already set
+0:442  0:000  Console modes reported: 4, available modes:
+0:442  0:000   - [01]: 80x25 (current mode)
+0:442  0:000   - [03]: 100x31
+0:442  0:000   - [04]: 128x40
+0:443  0:000  SetScreenResolution: 1366x768 - already set
+0:443  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,37BD1366-8820-4B68-B86B-E2F1B01C1E7E,0xAF800,0x64000)
+0:443  0:000  Using embedded font: Success
+0:444  0:000  === [ GetMacAddress ] =====================================
+0:444  0:000   get legacy LAN MAC, 1 card found
+0:444  0:000  Legacy MAC address of LAN #0= D8:50:E6:AB:53:0E:
+0:444  0:000  === [ ScanSPD ] ===========================================
+0:444  0:000  SMBus device : 8086 1E22 class=0C0500 status=Success
+0:444  0:000  SMBus CmdReg: 0x3
+0:444  0:000  Scanning SMBus [8086:1E22], mmio: 0xF7A15004, ioport: 0xF040, hostc: 0x1
+0:444  0:000  Slots to scan [8]...
+0:445  0:000  SPD[0]: Type 11 @0x50
+0:464  0:018  DDR speed 1333MHz
+0:464  0:000  Slot: 0 Type 24 2048MB 1333MHz Vendor=Kingston PartNo=99U5428-011.A02LF SerialNo=0901010301040302
+0:464  0:000  SPD[2]: Type 11 @0x52
+0:479  0:015  Bad parity bank=0x00 code=0x00
+0:479  0:000  DDR speed 1600MHz
+0:479  0:000  Slot: 2 Type 24 4096MB 1600MHz Vendor=NoName PartNo=MAGNUMTECH SerialNo=0000000000000000
+0:480  0:000  === [ GetAcpiTablesList ] =================================
+0:480  0:000  Get Acpi Tables List from RSDT:
+0:480  0:000   - [00]: FACP  Notebook len=132
+0:480  0:000   - [01]: APIC  Notebook len=114
+0:480  0:000   - [02]: FPDT  Notebook len=68
+0:480  0:000   - [03]: ECDT  Notebook len=193
+0:480  0:000   - [04]: MCFG  Notebook len=60
+0:480  0:000   - [05]: HPET  Notebook len=56
+0:480  0:000   - [06]: SSDT  AhciTab1 len=1586
+0:480  0:000   - [07]: SSDT  AhciTab2 len=1182
+0:480  0:000   - [08]: SSDT  Cpu0Ist len=2380
+0:480  0:000   - [09]: SSDT  CpuPm len=2840
+0:480  0:000   - [10]: BGRT  Notebook len=56
+0:480  0:000  Calibrated TSC Frequency = 2494330644 = 2494MHz
+0:480  0:000  === [ GetUserSettings ] ===================================
+0:480  0:000  USB FixOwnership: yes
+0:480  0:000  Dropping 3 tables:
+0:480  0:000   - [00]: Drop table  signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+0:480  0:000           - set table: 54445353,       6D50757043 to drop: yes
+0:480  0:000   - [01]: Drop table  signature="DMAR" (52414D44)
+0:480  0:000           - set table: 52414D44,                0 to drop: no
+0:480  0:000   - [02]: Drop table  signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+0:480  0:000           - set table: 54445353,   74734930757043 to drop: yes
+0:480  0:000   - final DSDT Fix mask=10409102
+0:480  0:000  PatchesDSDT: 2 requested
+0:480  0:000   - [00]: (Rename HDAS to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:480  0:000   - [01]: (change _DSM to XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:480  0:000  Using ProductName from config
+0:480  0:000  ProductName: iMac14,2
+0:480  0:000  Using latest BiosVersion from clover
+0:480  0:000  BiosVersion: IM142.88Z.0123.B00.1708211454
+0:480  0:000  BiosReleaseDate: 08/21/2017
+0:480  0:000  Using FirmwareFeatures from clover
+0:480  0:000  FirmwareFeatures: 0xE00FE137
+0:480  0:000  Using FirmwareFeaturesMask from clover
+0:480  0:000  FirmwareFeaturesMask: 0xFF1FFF3F
+0:480  0:000  Using PlatformFeature from clover
+0:480  0:000  PlatformFeature: 0x1
+0:480  0:000  Board-ID set from config as Mac-27ADBB7B4CEE8E61
+0:480  0:000  ChassisType: 0x13
+0:526  0:045  === [ ScanVolumes ] =======================================
+0:526  0:000  Found 11 volumes with blockIO
+0:526  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)
+0:531  0:005          Result of bootcode detection: bootable unknown (legacy)
+0:531  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0xFFFF,0x0)
+0:531  0:000          Found optical drive
+0:531  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,1C404D3A-BE02-47EC-A15E-79B3C9999ADB,0x800,0xAF000)
+0:540  0:008          Result of bootcode detection: bootable unknown (legacy)
+0:545  0:005  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,37BD1366-8820-4B68-B86B-E2F1B01C1E7E,0xAF800,0x64000)
+0:552  0:006          Result of bootcode detection: bootable unknown (legacy)
+0:593  0:040          This is SelfVolume !!
+0:593  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,2FB0CD31-9488-4BA6-BE10-F647A81A5DD2,0x113800,0x8000)
+0:599  0:006  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,EDC195D4-0965-4A28-96F1-AE6FC67A74F1,0x11B800,0xF17EF7A)
+0:608  0:009          Result of bootcode detection: bootable Windows (vista,win)
+0:608  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,4000AED1-2B02-470B-98C8-DBE8D469EF04,0xF29A800,0x189800)
+0:623  0:015          Result of bootcode detection: bootable Windows (vista,win)
+0:623  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,AD208415-8C77-4B0B-87E1-6C90B2EE0FF6,0xF424800,0x21866800)
+0:631  0:007          Result of bootcode detection: bootable Windows (vista,win)
+0:631  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(7,GPT,A81A0C91-CC2A-4B2D-8540-80975B20AD85,0x30C8B000,0x8583800)
+0:648  0:017  - [09]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(8,GPT,AA765E6D-A13C-41BD-A058-0AF1D1A3397F,0x3920E800,0x18C3D800)
+0:664  0:015  - [10]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(9,GPT,FBE4FC20-7783-01D3-103E-72F5C1BBE900,0x51E4C000,0x56BA6C8)
+0:684  0:019  === [ InitTheme ] =========================================
+0:684  0:000   using embedded theme
+0:684  0:000  Using embedded font: Success
+0:684  0:000  Choosing theme <null string>
+0:685  0:000  found boot-args in NVRAM:, size=1
+0:685  0:000  after NVRAM boot-args=-v slide=0 dart=0 darkwake=0 -ath9485
+0:685  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+0:685  0:000  found AppleSMC protocol
+0:773  0:088  Registered 17 SMC keys
+0:778  0:005  === [ ScanLoader ] ========================================
+0:778  0:000  - [02]: 'EFI'
+0:779  0:000  - [03]: 'EFI'
+0:907  0:128          AddLoaderEntry for Volume Name=EFI
+0:919  0:012          AddLoaderEntry for Volume Name=EFI
+0:920  0:000  - [10]: 'Sierra'
+1:014  0:093          AddLoaderEntry for Volume Name=Sierra
+1:033  0:019      Check if volume Is Hibernated:
+1:033  0:000      Check sleep image 'by signature':
+1:073  0:039      using default sleep image name = \private\var\vm\sleepimage
+1:116  0:042      sleepimage not found -> Not Found
+1:116  0:000      hibernated: no - sign
+1:252  0:136  Scanning legacy ...
+1:252  0:000   5: 'Legacy HD4' (vista,win) add legacy
+1:252  0:000   added 'Boot Windows from Legacy HD4' OSType=2 Icon=vista,win
+1:252  0:000   6: 'Legacy HD5' (vista,win) add legacy
+1:252  0:000   added 'Boot Windows from Legacy HD5' OSType=2 Icon=vista,win
+1:252  0:000   7: 'Legacy HD6' (vista,win) add legacy
+1:252  0:000   added 'Boot Windows from Legacy HD6' OSType=2 Icon=vista,win
+1:252  0:000  === [ AddCustomTool ] =====================================
+1:297  0:044  found tool \EFI\CLOVER\tools\Shell64U.efi
+1:297  0:000  Checking EFI partition Volume 3 for Clover
+1:297  0:000   Found Clover
+1:298  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+1:298  0:000  Default boot entry not found
+1:298  0:000  DefaultIndex=-1 and MainMenu.EntryCount=12
+1:327  0:029  GUI ready
+263:172  261:844  Found BIOS RSDP at F0000
+263:172  0:000  Printing ACPI tables from RSDP F0000 ...
+263:172  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+263:172  0:000    (Xsdt: C6879080, Rsdt: C6879028)
+263:172  0:000    C6879080: 'XSDT', 'Notebook', Rev: 1, Len: 124
+263:172  0:000    C6879028: 'RSDT', 'Notebook', Rev: 1, Len: 80
+263:172  0:000    Tables in Xsdt: 11
+263:172  0:000    0. C688CAE8: 'FACP', 'Notebook', Rev: 5, Len: 268
+263:172  0:000        (Dsdt: C6879190, Facs: C68A4080, XDsdt: C6879190, XFacs: 0)
+263:172  0:000        C6879190: 'DSDT', 'Notebook', Rev: 2, Len: 80215
+263:174  0:001        C68A4080: 'FACS', Ver: 2, Len: 64
+263:174  0:000    1. C688CBF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+263:174  0:000    2. C688CC70: 'FPDT', 'Notebook', Rev: 1, Len: 68
+263:174  0:000    3. C688CCB8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+263:174  0:000    4. C688CD80: 'MCFG', 'Notebook', Rev: 1, Len: 60
+263:174  0:000    5. C688CDC0: 'HPET', 'Notebook', Rev: 1, Len: 56
+263:174  0:000    6. C688CDF8: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+263:174  0:000    7. C688D430: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+263:174  0:000    8. C688D8D0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2380
+263:174  0:000    9. C688E220: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+263:174  0:000    10. C688ED38: 'BGRT', 'Notebook', Rev: 0, Len: 56
+263:174  0:000    Tables in Rsdt: 11
+263:174  0:000    0. C6879108: 'FACP', 'Notebook', Rev: 2, Len: 132
+263:174  0:000        (Dsdt: C6879190, Facs: C68A4040)
+263:174  0:000        C6879190: 'DSDT', 'Notebook', Rev: 2, Len: 80215
+263:176  0:001        C68A4040: 'FACS', Ver: 0, Len: 64
+263:176  0:000    1. C688CBF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+263:176  0:000    2. C688CC70: 'FPDT', 'Notebook', Rev: 1, Len: 68
+263:176  0:000    3. C688CCB8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+263:176  0:000    4. C688CD80: 'MCFG', 'Notebook', Rev: 1, Len: 60
+263:176  0:000    5. C688CDC0: 'HPET', 'Notebook', Rev: 1, Len: 56
+263:176  0:000    6. C688CDF8: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+263:176  0:000    7. C688D430: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+263:176  0:000    8. C688D8D0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2380
+263:176  0:000    9. C688E220: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+263:176  0:000    10. C688ED38: 'BGRT', 'Notebook', Rev: 0, Len: 56
+263:176  0:000  Found UEFI Acpi 2.0 RSDP at C6879000
+263:176  0:000  Saving ACPI tables from RSDP C6879000 to EFI\CLOVER\ACPI\origin ...
+263:176  0:000   C6879000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml - Not Found
+263:176  0:000  Found UEFI Acpi 1.0 RSDP at C6879000
+263:176  0:000  Printing ACPI tables from RSDP C6879000 ...
+263:176  0:000   C6879000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+263:176  0:000    (Xsdt: C6879080, Rsdt: C6879028)
+263:176  0:000    C6879080: 'XSDT', 'Notebook', Rev: 1, Len: 124
+263:176  0:000    C6879028: 'RSDT', 'Notebook', Rev: 1, Len: 80
+263:176  0:000    Tables in Xsdt: 11
+263:176  0:000    0. C688CAE8: 'FACP', 'Notebook', Rev: 5, Len: 268
+263:176  0:000        (Dsdt: C6879190, Facs: C68A4080, XDsdt: C6879190, XFacs: 0)
+263:176  0:000        C6879190: 'DSDT', 'Notebook', Rev: 2, Len: 80215
+263:178  0:001        C68A4080: 'FACS', Ver: 2, Len: 64
+263:178  0:000    1. C688CBF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+263:178  0:000    2. C688CC70: 'FPDT', 'Notebook', Rev: 1, Len: 68
+263:178  0:000    3. C688CCB8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+263:178  0:000    4. C688CD80: 'MCFG', 'Notebook', Rev: 1, Len: 60
+263:178  0:000    5. C688CDC0: 'HPET', 'Notebook', Rev: 1, Len: 56
+263:178  0:000    6. C688CDF8: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+263:178  0:000    7. C688D430: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+263:178  0:000    8. C688D8D0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2380
+263:178  0:000    9. C688E220: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+263:178  0:000    10. C688ED38: 'BGRT', 'Notebook', Rev: 0, Len: 56
+263:178  0:000    Tables in Rsdt: 11
+263:178  0:000    0. C6879108: 'FACP', 'Notebook', Rev: 2, Len: 132
+263:178  0:000        (Dsdt: C6879190, Facs: C68A4040)
+263:178  0:000        C6879190: 'DSDT', 'Notebook', Rev: 2, Len: 80215
+263:180  0:001        C68A4040: 'FACS', Ver: 0, Len: 64
+263:180  0:000    1. C688CBF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+263:180  0:000    2. C688CC70: 'FPDT', 'Notebook', Rev: 1, Len: 68
+263:180  0:000    3. C688CCB8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+263:180  0:000    4. C688CD80: 'MCFG', 'Notebook', Rev: 1, Len: 60
+263:180  0:000    5. C688CDC0: 'HPET', 'Notebook', Rev: 1, Len: 56
+263:180  0:000    6. C688CDF8: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+263:180  0:000    7. C688D430: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+263:180  0:000    8. C688D8D0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2380
+263:180  0:000    9. C688E220: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+263:180  0:000    10. C688ED38: 'BGRT', 'Notebook', Rev: 0, Len: 56
+268:198  5:018  Found BIOS RSDP at F0000
+268:198  0:000  Printing ACPI tables from RSDP F0000 ...
+268:198  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+268:198  0:000    (Xsdt: C6879080, Rsdt: C6879028)
+268:198  0:000    C6879080: 'XSDT', 'Notebook', Rev: 1, Len: 124
+268:198  0:000    C6879028: 'RSDT', 'Notebook', Rev: 1, Len: 80
+268:198  0:000    Tables in Xsdt: 11
+268:198  0:000    0. C688CAE8: 'FACP', 'Notebook', Rev: 5, Len: 268
+268:198  0:000        (Dsdt: C6879190, Facs: C68A4080, XDsdt: C6879190, XFacs: 0)
+268:198  0:000        C6879190: 'DSDT', 'Notebook', Rev: 2, Len: 80215
+268:200  0:001        C68A4080: 'FACS', Ver: 2, Len: 64
+268:200  0:000    1. C688CBF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+268:200  0:000    2. C688CC70: 'FPDT', 'Notebook', Rev: 1, Len: 68
+268:200  0:000    3. C688CCB8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+268:200  0:000    4. C688CD80: 'MCFG', 'Notebook', Rev: 1, Len: 60
+268:200  0:000    5. C688CDC0: 'HPET', 'Notebook', Rev: 1, Len: 56
+268:200  0:000    6. C688CDF8: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+268:200  0:000    7. C688D430: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+268:200  0:000    8. C688D8D0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2380
+268:200  0:000    9. C688E220: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+268:200  0:000    10. C688ED38: 'BGRT', 'Notebook', Rev: 0, Len: 56
+268:200  0:000    Tables in Rsdt: 11
+268:200  0:000    0. C6879108: 'FACP', 'Notebook', Rev: 2, Len: 132
+268:200  0:000        (Dsdt: C6879190, Facs: C68A4040)
+268:200  0:000        C6879190: 'DSDT', 'Notebook', Rev: 2, Len: 80215
+268:202  0:001        C68A4040: 'FACS', Ver: 0, Len: 64
+268:202  0:000    1. C688CBF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+268:202  0:000    2. C688CC70: 'FPDT', 'Notebook', Rev: 1, Len: 68
+268:202  0:000    3. C688CCB8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+268:202  0:000    4. C688CD80: 'MCFG', 'Notebook', Rev: 1, Len: 60
+268:202  0:000    5. C688CDC0: 'HPET', 'Notebook', Rev: 1, Len: 56
+268:202  0:000    6. C688CDF8: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+268:202  0:000    7. C688D430: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+268:202  0:000    8. C688D8D0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2380
+268:202  0:000    9. C688E220: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+268:202  0:000    10. C688ED38: 'BGRT', 'Notebook', Rev: 0, Len: 56
+268:202  0:000  Found UEFI Acpi 2.0 RSDP at C6879000
+268:202  0:000  Saving ACPI tables from RSDP C6879000 to EFI\CLOVER\ACPI\origin ...
+268:202  0:000   C6879000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+268:202  0:000    (Xsdt: C6879080, Rsdt: C6879028)
+268:202  0:000    C6879080: 'XSDT', 'Notebook', Rev: 1, Len: 124 -> XSDT.aml - Not Found
+268:202  0:000    C6879028: 'RSDT', 'Notebook', Rev: 1, Len: 80 -> RSDT.aml - Not Found
+268:202  0:000   No Rsdt and Xsdt - exiting.
+268:202  0:000  Found UEFI Acpi 1.0 RSDP at C6879000
+268:202  0:000  Printing ACPI tables from RSDP C6879000 ...
+268:202  0:000   C6879000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+268:202  0:000    (Xsdt: C6879080, Rsdt: C6879028)
+268:202  0:000    C6879080: 'XSDT', 'Notebook', Rev: 1, Len: 124
+268:202  0:000    C6879028: 'RSDT', 'Notebook', Rev: 1, Len: 80
+268:202  0:000    Tables in Xsdt: 11
+268:202  0:000    0. C688CAE8: 'FACP', 'Notebook', Rev: 5, Len: 268
+268:202  0:000        (Dsdt: C6879190, Facs: C68A4080, XDsdt: C6879190, XFacs: 0)
+268:202  0:000        C6879190: 'DSDT', 'Notebook', Rev: 2, Len: 80215
+268:204  0:001        C68A4080: 'FACS', Ver: 2, Len: 64
+268:204  0:000    1. C688CBF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+268:204  0:000    2. C688CC70: 'FPDT', 'Notebook', Rev: 1, Len: 68
+268:204  0:000    3. C688CCB8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+268:204  0:000    4. C688CD80: 'MCFG', 'Notebook', Rev: 1, Len: 60
+268:204  0:000    5. C688CDC0: 'HPET', 'Notebook', Rev: 1, Len: 56
+268:204  0:000    6. C688CDF8: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+268:204  0:000    7. C688D430: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+268:204  0:000    8. C688D8D0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2380
+268:204  0:000    9. C688E220: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+268:204  0:000    10. C688ED38: 'BGRT', 'Notebook', Rev: 0, Len: 56
+268:204  0:000    Tables in Rsdt: 11
+268:204  0:000    0. C6879108: 'FACP', 'Notebook', Rev: 2, Len: 132
+268:204  0:000        (Dsdt: C6879190, Facs: C68A4040)
+268:204  0:000        C6879190: 'DSDT', 'Notebook', Rev: 2, Len: 80215
+268:206  0:001        C68A4040: 'FACS', Ver: 0, Len: 64
+268:206  0:000    1. C688CBF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+268:206  0:000    2. C688CC70: 'FPDT', 'Notebook', Rev: 1, Len: 68
+268:206  0:000    3. C688CCB8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+268:206  0:000    4. C688CD80: 'MCFG', 'Notebook', Rev: 1, Len: 60
+268:206  0:000    5. C688CDC0: 'HPET', 'Notebook', Rev: 1, Len: 56
+268:206  0:000    6. C688CDF8: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+268:206  0:000    7. C688D430: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+268:206  0:000    8. C688D8D0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2380
+268:206  0:000    9. C688E220: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+268:206  0:000    10. C688ED38: 'BGRT', 'Notebook', Rev: 0, Len: 56
+271:104  2:898  Found BIOS RSDP at F0000
+271:104  0:000  Printing ACPI tables from RSDP F0000 ...
+271:104  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+271:104  0:000    (Xsdt: C6879080, Rsdt: C6879028)
+271:104  0:000    C6879080: 'XSDT', 'Notebook', Rev: 1, Len: 124
+271:104  0:000    C6879028: 'RSDT', 'Notebook', Rev: 1, Len: 80
+271:104  0:000    Tables in Xsdt: 11
+271:104  0:000    0. C688CAE8: 'FACP', 'Notebook', Rev: 5, Len: 268
+271:104  0:000        (Dsdt: C6879190, Facs: C68A4080, XDsdt: C6879190, XFacs: 0)
+271:104  0:000        C6879190: 'DSDT', 'Notebook', Rev: 2, Len: 80215
+271:106  0:001        C68A4080: 'FACS', Ver: 2, Len: 64
+271:106  0:000    1. C688CBF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+271:106  0:000    2. C688CC70: 'FPDT', 'Notebook', Rev: 1, Len: 68
+271:106  0:000    3. C688CCB8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+271:106  0:000    4. C688CD80: 'MCFG', 'Notebook', Rev: 1, Len: 60
+271:106  0:000    5. C688CDC0: 'HPET', 'Notebook', Rev: 1, Len: 56
+271:106  0:000    6. C688CDF8: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+271:106  0:000    7. C688D430: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+271:106  0:000    8. C688D8D0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2380
+271:106  0:000    9. C688E220: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+271:106  0:000    10. C688ED38: 'BGRT', 'Notebook', Rev: 0, Len: 56
+271:106  0:000    Tables in Rsdt: 11
+271:106  0:000    0. C6879108: 'FACP', 'Notebook', Rev: 2, Len: 132
+271:106  0:000        (Dsdt: C6879190, Facs: C68A4040)
+271:106  0:000        C6879190: 'DSDT', 'Notebook', Rev: 2, Len: 80215
+271:108  0:001        C68A4040: 'FACS', Ver: 0, Len: 64
+271:108  0:000    1. C688CBF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+271:108  0:000    2. C688CC70: 'FPDT', 'Notebook', Rev: 1, Len: 68
+271:108  0:000    3. C688CCB8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+271:108  0:000    4. C688CD80: 'MCFG', 'Notebook', Rev: 1, Len: 60
+271:108  0:000    5. C688CDC0: 'HPET', 'Notebook', Rev: 1, Len: 56
+271:108  0:000    6. C688CDF8: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+271:108  0:000    7. C688D430: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+271:108  0:000    8. C688D8D0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2380
+271:108  0:000    9. C688E220: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+271:108  0:000    10. C688ED38: 'BGRT', 'Notebook', Rev: 0, Len: 56
+271:108  0:000  Found UEFI Acpi 2.0 RSDP at C6879000
+271:108  0:000  Saving ACPI tables from RSDP C6879000 to EFI\CLOVER\ACPI\origin ...
+271:108  0:000   C6879000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml - Not Found
+271:108  0:000  Found UEFI Acpi 1.0 RSDP at C6879000
+271:108  0:000  Printing ACPI tables from RSDP C6879000 ...
+271:108  0:000   C6879000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+271:108  0:000    (Xsdt: C6879080, Rsdt: C6879028)
+271:108  0:000    C6879080: 'XSDT', 'Notebook', Rev: 1, Len: 124
+271:108  0:000    C6879028: 'RSDT', 'Notebook', Rev: 1, Len: 80
+271:108  0:000    Tables in Xsdt: 11
+271:108  0:000    0. C688CAE8: 'FACP', 'Notebook', Rev: 5, Len: 268
+271:108  0:000        (Dsdt: C6879190, Facs: C68A4080, XDsdt: C6879190, XFacs: 0)
+271:108  0:000        C6879190: 'DSDT', 'Notebook', Rev: 2, Len: 80215
+271:110  0:001        C68A4080: 'FACS', Ver: 2, Len: 64
+271:110  0:000    1. C688CBF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+271:110  0:000    2. C688CC70: 'FPDT', 'Notebook', Rev: 1, Len: 68
+271:110  0:000    3. C688CCB8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+271:110  0:000    4. C688CD80: 'MCFG', 'Notebook', Rev: 1, Len: 60
+271:110  0:000    5. C688CDC0: 'HPET', 'Notebook', Rev: 1, Len: 56
+271:110  0:000    6. C688CDF8: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+271:110  0:000    7. C688D430: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+271:110  0:000    8. C688D8D0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2380
+271:110  0:000    9. C688E220: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+271:110  0:000    10. C688ED38: 'BGRT', 'Notebook', Rev: 0, Len: 56
+271:110  0:000    Tables in Rsdt: 11
+271:110  0:000    0. C6879108: 'FACP', 'Notebook', Rev: 2, Len: 132
+271:110  0:000        (Dsdt: C6879190, Facs: C68A4040)
+271:110  0:000        C6879190: 'DSDT', 'Notebook', Rev: 2, Len: 80215
+271:112  0:001        C68A4040: 'FACS', Ver: 0, Len: 64
+271:112  0:000    1. C688CBF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+271:112  0:000    2. C688CC70: 'FPDT', 'Notebook', Rev: 1, Len: 68
+271:112  0:000    3. C688CCB8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+271:112  0:000    4. C688CD80: 'MCFG', 'Notebook', Rev: 1, Len: 60
+271:112  0:000    5. C688CDC0: 'HPET', 'Notebook', Rev: 1, Len: 56
+271:112  0:000    6. C688CDF8: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+271:112  0:000    7. C688D430: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+271:112  0:000    8. C688D8D0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2380
+271:112  0:000    9. C688E220: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+271:112  0:000    10. C688ED38: 'BGRT', 'Notebook', Rev: 0, Len: 56
+271:179  0:066  === [ FixBiosDsdt ] =======================================
+271:179  0:000  VideoCard devID=0x1668086
+271:179  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+271:179  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+271:179  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+271:179  0:000  Found Airport Atheros at 0x1C0001, 0x0, DeviceID=0x0032
+271:179  0:000  USBADR[2] = 0x1D0000 and PCIe = 0xFFFE
+271:179  0:000  Patching DSDT:
+271:179  0:000   - [Rename HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+271:179  0:000   - [change _DSM to XDSM]: pattern 5F44534D, patched at: [ (58BC) (D4E6) (A) (79C) (3E) ]
+271:180  0:000  first CPU found at 7B8A offset 7B8D
+271:180  0:000  score candidate at 7B86
+271:180  0:000  score inserted in acpi_cpu_score _PR_
+271:180  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+271:180  0:000  Found PCIROOTUID = 0
+271:180  0:000  patch HDEF in DSDT 
+271:180  0:000  Start HDA Fix
+271:181  0:000  found HDA device NAME(_ADR,0x001B0000) And Name is HDEF
+271:181  0:000  NewName HDEF already present, renaming impossible
+271:181  0:000  Start USB Fix
+271:181  0:000  USB bridge[140000] at 1D2D, size = 1F
+271:181  0:000  USB bridge[1A0000] at 1EE5, size = 1F
+271:181  0:000  USB bridge[1D0000] at 1E40, size = 1F
+271:181  0:000   deleting device CRT_
+271:182  0:000   deleting device DVI_
+271:182  0:000   deleting device SPKR
+271:182  0:000   deleting device ECP_
+271:183  0:000   deleting device LPT_
+271:183  0:000   deleting device FDC0
+271:184  0:000   deleting device ECP1
+271:184  0:000   deleting device LPT1
+271:185  0:000  Start Darwin Fix
+271:185  0:000  Name _OSI present at 0x1941, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x81F1, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x81F8, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x8214, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x8234, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x8254, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x8272, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x828E, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x92DE, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x92E5, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x9302, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x9323, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x9344, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x9361, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x9377, renaming to OOSI
+271:185  0:000  Name _OSI present at 0x9394, renaming to OOSI
+271:185  0:000  Name _OSI present at 0xADBB, renaming to OOSI
+271:185  0:000  Name _OSI present at 0xFA77, renaming to OOSI
+271:185  0:000  Saving DSDT to EFI\CLOVER\ACPI\origin\DSDT-10409102.aml failed - Not Found
