@@ -45,6 +45,33 @@ sudo pmset -a autopoweroff 0
 
 * **Hotpatch Config SSDT:** **SSDT-Config.aml**
 
+* **Keyboard Fn Keys:** Use **ACPIKeyboar** kext by RehabMan's with my custom **SSDT-RMKB.aml** (and rename patches for CLover) configured to delegate keypresses to ELAN's PS/2 driver by EMlyDinEsH
+	* List of Special Keys and state:
+		* Fn + F1 Sleep:  EC _Q0A - Disabled because bad functioning
+		* Fn + F2 Wireless:  EC _Q0B - Not in AppleKeyboard
+		* Fn + F3: EC _Q0C - Undefined
+		* Fn + F4: EC _Q0D - Undefined
+		* Fn + F5 Brigth Down: EC _Q0E
+		* Fn + F6 Brigth Up: EC _Q0F
+		* Fn + F7 Screen Off/On: EC _Q10 - Not patched working properly with ELAN driver
+		* Fn + F8 Video Mirror: EC _Q11
+		* Fn + F9 TrackPad On/Off: EC _Q12 - Not in AppleKeyboard
+		* Fn + Arrow Left(Media Previous): EC _Q6C
+		* Fn + Arrow Right(Media Next): EC _Q6D
+		* Fn + Arrow Up(Media Stop): EC _Q6E - Not in AppleKeyboard
+		* Fn + Arrow Down(Media Pause/Play): EC _Q6F
+		* Fn + Space Bar: EC _Q71 - Not in AppleKeyboard
+		* Fn + C Letter: EC _Q72 - Not in AppleKeyboard
+		* Fn + V Letter(Camera): EC _Q74 - Not in AppleKeyboard
+		* Fn + Numpad's Intro(Calc): EC _Q77 - Not in AppleKeyboard
+		* Left Assignable Button Button: EC _QEC - Assigned to MUTE
+
+
+
 ### Not Working:
 
 * **Bluetooth:** There is no kext for our chip version (MacOS will recognize it but you will never get to use it -our chip needs certain FW download that is not implemented in kexts-)
+
+## Miscelaneous
+
+* **OSI Check:** use _OSI to XOSI rename in Clover with RehabMan's **SSDT-XOSI.aml** from hotpach repo 

@@ -244,6 +244,118 @@
 					SUdQVQhfQURSDAAAAgA=
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q0A to XQ0A (ASUS N56VB Fn+F1 Disable Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1EwQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFEwQQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q0E to XQ0E (ASUS N56VB Fn+F5 Brigth Down Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1EwRQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFEwRQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q0F to XQ0F (ASUS N56VB Fn+F6 Brigth Up Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1EwRg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFEwRg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q11 to XQ11 (ASUS N56VB Fn+F8 Video Mirror Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExMQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q6C to XQ6C (ASUS N56VB Fn+Arrow Left Media Previous Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1E2Qw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFE2Qw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q6D to XQ6D (ASUS N56VB Fn+Arrow Right Media Next Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1E2RA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFE2RA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q6F to XQ6F (ASUS N56VB Fn+Arrow Down Media Play/Pause Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1E2Rg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFE2Rg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_QEC to XQEC (ASUS N56VB Left Assignable Button Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1FFQw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFFFQw==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
