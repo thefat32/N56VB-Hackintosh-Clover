@@ -20,7 +20,25 @@ Install provided Kexts and other miscelaneous and use provided CLOVER folder.
 
 * **BackLigth:** Implemented using new RehabMan guide for Sierra 10.12.4+ (**PNLF hot patch (SSDT-PNLF.aml) into Clover’s ACPI folder** + **BacklightInjector kext** + **patch for AppleBacklight in config.plist/KernelAndKextPatches/KextsToPatch**)
 
-* **Battery Stats:** Fixed by patching DSDT with **battery_ASUS-N55SL.txt** from RehabMan's Laptop-DSDT-Patch repo
+* **Battery Stats:** Fixed using custom **SSDT-BATTERY.aml** made by me porting DSDT patch from RehabMan's repo to a SSDT approach. This depends in some Clover's renames in original DSDT (added in config.plist):
+	
+	* Rename ECOR to XCOR
+	
+	* Rename SMBX to XMBX
+	
+	* Rename SMB2 to XMB2
+	
+	* Rename BIFA to XIFA
+	
+	* Rename _BIX to XBIX 
+	
+	* Rename Method SMBR to XMBR but not method calls
+
+	* Rename Method SMBW to XMBW but not method calls
+	
+	* Rename Method ECSB to XCSB but not method calls
+	
+	* Rename Method TACH to XACH but not method calls 
 
 * **USB:** 
 	* **Internal 2.0 HUB (USB Webcam and USB Bluetooth)** need **USBInjectAll** Kext by RehabMan with custom **SSDT-UIAC.aml** in CLOVER/ACPI/patched and renaming EHC1 to EH01 and EHC2 to EH02 (Clover Rename Patch)

@@ -356,6 +356,132 @@
 					WFFFQw==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>ECOR to XCOR (ASUS N56VB Battery Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUNPUg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WENPUg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>SMBX to XMBX (ASUS N56VB Battery Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					U01CWA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE1CWA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>SMB2 to XMB2 (ASUS N56VB Battery Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					U01CMg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE1CMg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>BIFA to XIFA (ASUS N56VB Battery Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					QklGQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WElGQQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename Method SMBR to XMBR but not method calls (ASUS N56VB Battery Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					FEsTU01CUgs=
+					</data>
+					<key>Replace</key>
+					<data>
+					FEsTWE1CUgs=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename Method SMBW to XMBW but not method calls (ASUS N56VB Battery Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					FEUQU01CVw0=
+					</data>
+					<key>Replace</key>
+					<data>
+					FEUQWE1CVw0=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename Method ECSB to XCSB but not method calls (ASUS N56VB Battery Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					FE8aRUNTQgc=
+					</data>
+					<key>Replace</key>
+					<data>
+					FE8aWENTQgc=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename Method TACH to XACH but not method calls (ASUS N56VB Battery Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					FEAGVEFDSAk=
+					</data>
+					<key>Replace</key>
+					<data>
+					FEAGWEFDSAk=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_BIX to XBIX (ASUS N56VB Battery Patch)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X0JJWA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEJJWA==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
