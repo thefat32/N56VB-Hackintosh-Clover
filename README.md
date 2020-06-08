@@ -1,5 +1,7 @@
 # N56VB-Hackintosh (10.12.6)
 
+# THIS REPO IS OUTDATED AND CLOVER BASED, PLEASE REFER TO [OpenCore](https://github.com/thefat32/N56VB-Hackintosh-OpenCore) REPO FOR LATEST VERSION
+
 ## This Repo Contains proper kexts and other miscelaneous to run MacOS Sierra in a N56VB (Intel HM76)
 
 ### Usage:
